@@ -1,0 +1,30 @@
+<checkbox-group bindchange='checking' data-price='11s5'>
+
+<view class='cart-container' wx:for='{{cartlist}}' >
+  <checkbox color='#FF5D50'  value='{{item.productid}},{{item.price}},{{item.num}},{{item.style}},{{item.title}},{{item.firstimg}},{{item.id}}' checked='{{selected}}'></checkbox>
+  <view class='cart-item' >
+     <image class='cart-item-img' src='{{item.firstimg}}'></image>
+    <text class='cart-item-title'>{{item.title}}</text>
+    <text class='cart-item-style'>{{item.style}}</text>
+    <text class='cart-item-price'>{{item.price}}</text>
+    <view class='plus-minus-container'>
+      <view class='plus' bindtap='onminus' data-id='{{item.id}}'>
+        <image class='icon-small-size' src='/images/icon/minus.png'></image>
+      </view>
+      <view class='number-item' >{{item.num}}</view>
+      <view class='plus' bindtap='onplus' data-id='{{item.id}}'>
+        <image class='icon-small-size' src='/images/icon/plus.png'></image>
+      </view>
+    </view>
+  </view>
+</view>
+
+
+</checkbox-group>
+<view class='cart-footer'>
+   <radio class='all-radio' color='#FF5D50' bindtap='sellectAll' checked='{{radiochecked}}'></radio>
+   <text class='all-text'>全选</text>
+   <text class='totalprice-text'>合计：</text>
+   <text class='totalprice'>￥{{pricenow}}</text>
+   <view class='gocheck' bindtap='gocheck'>去结算（3）</view>
+</view>

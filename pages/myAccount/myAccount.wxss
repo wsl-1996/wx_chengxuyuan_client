@@ -1,0 +1,40 @@
+.bg1{
+  position: absolute;
+  width: 750rpx;
+  height: 230rpx;
+  opacity: 0.2;
+}
+
+.userinfo{
+  width: 730rpx;
+  height: 250rpx;
+  margin-top: 10rpx;
+  position: relative;
+}
+
+.userinfo-avatar{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 30rpx;
+  margin-top: -75rpx;
+}
+
+.userinfo-nickname{
+  position: absolute;
+  left: 200rpx;
+  top: 90rpx;
+}
+
+.my-item{
+  text-align: center;
+  line-height: 240rpx;
+  float: left;
+  width: 220rpx;
+  height: 240rpx;
+  margin: 14rpx;
+  box-shadow: 5rpx 5rpx 15rpx #ccc;
+  border-radius: 10rpx;
+}

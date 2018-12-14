@@ -1,0 +1,91 @@
+.containter1{
+  position: relative;
+
+}
+.main-sort {
+  position: absolute;
+  left: 0;
+  width: 200rpx;
+  height: 600rpx;
+}
+
+.sub-main {
+  width: 530rpx;
+  height: 600rpx;
+  position: absolute;
+  right: 0;
+}
+
+.gototop{
+  position: fixed;
+  background-color: #fff;
+  color: red;
+  opacity: 0.8;
+  top: 100rpx;
+  right: 0rpx;
+  width: 50rpx;
+  height: 160rpx;
+  text-align: center;
+  line-height: 40rpx;
+  z-index: 1001;
+  box-shadow: 0 0 6rpx 6rpx #ccc;
+}
+
+.customservice {
+  position: fixed;
+  background-color: #fff;
+  color: red;
+  opacity: 0.6;
+  top: 800rpx;
+  right: 20rpx;
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 80rpx;
+  z-index: 1001;
+  box-shadow: 0 0 6rpx 6rpx #ccc;
+}
+
+.sort-item {
+  height: 60rpx;
+  line-height: 60rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.shop-img {
+  width: 250rpx;
+  height: 250rpx;
+  border-radius: 10rpx;
+}
+
+.product-containter {
+  width: 700rpx;
+  margin-top: 20rpx;
+  margin-left: 25rpx;
+  position: relative
+}
+
+.shop-text {
+  font-size: 28rpx;
+  position: absolute;
+  top:  40rpx;
+  left: 300rpx;
+}
+
+.shop-price {
+  padding: 10rpx;
+  padding-left: 0;
+  font-size: 28rpx;
+  color: red;
+  position: absolute;
+  top:  100rpx;
+  left: 300rpx;
+}
+
+.list-containter{
+  padding-top: 630rpx;
+}

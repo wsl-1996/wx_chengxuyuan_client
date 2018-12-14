@@ -1,0 +1,84 @@
+/* pages/shopindex/shopindex.wxss */
+.search-content{
+   background: white;
+   width:750rpx;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding-top: auto;
+   padding-left: 20rpx;
+   padding-bottom: auto;
+   margin: auto;
+   height: 70rpx;
+   border-radius:5px 5px;
+   margin-bottom: 15rpx;
+}
+.search-icon{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 20rpx;
+}
+.search-input{
+  width: 500rpx;
+  font-size: 28rpx;
+}
+.search-btn{
+  width: 150rpx;
+  height: 70rpx;
+  margin-right: 0rpx;
+  background-color:rgb(255, 100, 10);
+  font-size: 28rpx;
+   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 0rpx;
+  border-bottom-left-radius: 0rpx;
+  color:#fff;
+  border:none;
+  position: relative;
+}
+
+.product-banner-img{
+  width: 750rpx;
+}
+
+.shop-img {
+  width: 350rpx;
+	height: 250rpx;
+  border-radius: 10rpx;
+}
+
+.product-containter{
+  width: 350rpx;
+  float: left;
+  margin-top: 20rpx;
+  padding-left: 20rpx;
+}
+
+.shop-text{
+  font-size: 28rpx;
+}
+
+.shop-price{
+  padding: 10rpx;
+  padding-left: 0;
+  font-size: 28rpx;
+  color: red
+}
+
+.customservice{
+  position: fixed;
+  background-color: #fff;
+  color: red;
+  opacity: 0.6;
+  top: 800rpx;
+  right: 20rpx;
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 80rpx;
+  z-index: 1001;
+  box-shadow: 0 0 6rpx 6rpx #ccc
+}

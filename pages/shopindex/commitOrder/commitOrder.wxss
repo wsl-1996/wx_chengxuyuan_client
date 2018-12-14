@@ -1,0 +1,223 @@
+.title-content {
+  position: relative;
+  width: 750rpx;
+  min-height: 150rpx;
+}
+
+.title-content-name {
+  position: absolute;
+  top: 20rpx;
+  left: 100rpx;
+}
+
+.title-content-tele {
+  position: absolute;
+  top: 20rpx;
+  right: 140rpx;
+}
+
+
+.title-content-address {
+ position: absolute;
+  top: 90rpx;
+  left: 100rpx;
+}
+
+.arrow-icon{
+  position: absolute;
+  top: 50%;
+  right: 20rpx;
+  margin-top: -30rpx;
+}
+
+.location-icon{
+  position: absolute;
+  top: 50%;
+  left: 20rpx;
+  margin-top: -30rpx;
+}
+
+.body-content-goods {
+  position: relative;
+  background-color: #fff;
+  width: 750rpx;
+  height: 220rpx;
+  margin-top: 10rpx;
+}
+
+.body-content-goods image {
+  width: 200rpx;
+  height: 200rpx;
+  margin: 10rpx 0 0 10rpx;
+}
+
+.body-content-detail {
+  height: 80rpx;
+  position: absolute;
+  left: 240rpx;
+  top: 10rpx;
+}
+
+.body-content-style {
+  position: absolute;
+  left: 240rpx;
+  top: 100rpx;
+  color: #bbb;
+}
+
+.body-content-price {
+  position: absolute;
+  left: 240rpx;
+  top: 150rpx;
+}
+
+.plus-minus-container{
+  position: absolute;
+  bottom: 20rpx;
+  right: 20rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-width: 160rpx;
+  height: 50rpx;
+  border: 1px solid #ccc;
+}
+.icon-small-size{
+  width: 30rpx !important ;
+  height: 30rpx !important;
+}
+
+.plus{
+  width: 50rpx;
+  height: 50rpx;
+  background-color: #ddd
+}
+
+.number-item{
+  min-width: 60rpx;
+  height: 50rpx;
+  text-align: center;
+  line-height: 50rpx;
+}
+
+.remarks{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20rpx;
+}
+
+.remarks-content{
+  width: 560rpx;
+  height: 50rpx;
+  /* background-color: #eee */
+}
+
+.payment{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  height: 80rpx;
+  margin: 20rpx 0 120rpx 20rpx;
+}
+
+.payment-text{
+ text-align: center;
+ line-height: 80rpx;
+ margin-left: 20rpx;
+
+}
+
+.success-icon{
+  position: absolute;
+  right: 20rpx;
+}
+
+.express-content{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+.express-text{
+  margin-left: 20rpx;
+}
+
+.express-price{
+  margin-left: 400rpx;
+}
+
+.deduction-content{
+   display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20rpx 0 20rpx 20rpx;
+}
+
+.deduction-sub-content{
+   display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+.deduction-content-img{
+  width: 90rpx;
+  height: 80rpx;
+}
+
+.deduction-content-text{
+  margin-left: 20rpx;
+}
+
+.deduction-content-price{
+  margin-left: 20rpx;
+  font-size: 32rpx;
+  color: red
+}
+
+.deduction-content-radio{
+    margin-right: 20rpx;
+}
+
+.footer-content{
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 750rpx;
+  height: 90rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #ccc;
+}
+
+.footer-content-text{
+  width: 300rpx;
+  font-size: 32rpx;
+  letter-spacing: 5rpx;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20rpx;
+}
+.footer-content-payment{
+  width: 250rpx;
+  color: red;
+  font-size: 32rpx;
+  letter-spacing: 2rpx;
+  display: flex;
+  justify-content: flex-start
+}
+
+.footer-content-commit{
+  width: 200rpx;
+  height: 90rpx;
+  background-color: rgb(255, 85, 0);
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}

@@ -1,0 +1,88 @@
+/* pages/my/myorder/tocomment/tocomment.wxss */
+@import '/pages/template/logofooter/logofooter-template.wxss';
+.title{
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15rpx 15rpx;
+}
+.comment-img{
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.photo-img{
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.titletext{
+  margin-right: 20rpx;
+}
+
+.star-img{
+  margin-right: 12rpx;
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.add-img-container{
+  width: 150rpx;
+  height: 150rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border:  dashed #ccc  1px;
+  color: #ccc
+}
+
+.commit-btn{
+  background-color: rgb(255, 177, 10);
+  color: #fff;
+  width: 150rpx;
+  height: 150rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.comment-img-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start
+}
+.comment-img{
+
+
+}
+
+.comment-body{
+  background-color: #fff;
+  min-height: 450rpx;
+  margin-top: 15rpx;
+  padding: 15rpx 15rpx;
+}
+
+.inputtext{
+  width: 750rpx;
+  height: 230rpx;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20rpx;
+
+}
+
+.logofooter-container{
+  position: absolute;
+  bottom: 30rpx;
+  left: 50%;
+  margin-left: -100rpx;
+}

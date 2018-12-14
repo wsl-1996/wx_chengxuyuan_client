@@ -1,0 +1,23 @@
+<view class='containter1'>
+  <scroll-view class='main-sort' scroll-y='true'>
+    <view class='sort-item' wx:for='{{sortarr}}' wx:key='' data-code='{{item.code}}' bindtap='gotosubsort'>{{item.name}}</view>
+  </scroll-view>
+
+  <scroll-view class='sub-main' scroll-y='true'>
+    <view class='sort-item' wx:for='{{subarr}}' wx:key='' data-code='{{item.code}}' bindtap='gotoshop'>{{item.name}}</view>
+  </scroll-view>
+  <view class='customservice' bindtap='clickCustomservice'>客服</view>
+  <view class='gototop' bindtap='gototop'>返回顶部</view>
+
+  <view class='list-containter' >
+    <view class='product-containter' wx:for='{{productlist}}' wx:key='' bindtap='tapgoods' data-productid="{{item.id}}">
+      <image class="shop-img" mode='aspectFit' src='{{item.productFistImg}}'></image>
+      <view class='shop-text'>
+        <text class='shop-item'>{{item.productName}}</text>
+      </view>
+      <view class='shop-price'>
+        <text>￥{{item.price}}</text>
+      </view>
+    </view>
+  </view>
+</view>

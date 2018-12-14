@@ -1,0 +1,10 @@
+<template name='logofooter-template'>
+  <view class='logofooter-content'>
+    <image class='logofooter-img' src='/images/icon/logo.svg'></image>
+    <view class='logofooter-line'></view>
+    <view class='logofooter-text'>
+      <text>程序园售</text> 
+      <text>专注精品</text>
+      </view>
+  </view>
+</template>

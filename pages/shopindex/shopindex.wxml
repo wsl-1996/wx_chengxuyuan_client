@@ -1,0 +1,29 @@
+<view class="search-content">
+  <icon type='search' class="search-icon"></icon>
+  <input placeholder="请输入搜索内容" class="search-input" maxlength="30" confirm-type="搜索" bindinput='listenerSearchInput' bindconfirm='toSearch'>
+  </input>
+  <button class='search-btn' bindtap="toSearch">搜索
+  </button>
+</view>
+<view>
+  <swiper class='group-banner' autoplay='true' interval='2000'>
+    <swiper-item wx:for='{{banners}}' wx:key=''>
+      <image class='product-banner-img' src='{{item.imgUrl}}' bindtap='tobannergroup' data-groupid='{{item.groupId}}' data-cantab='{{item.canTab}}' mode="widthFix"></image>
+    </swiper-item>
+  </swiper>
+</view>
+<view class='product-list'>
+  <block wx:for='{{productlist}}' wx:key=''>
+    <view class='product-containter' bindtap='tapgoods' data-productid="{{item.id}}">
+      <image class="shop-img" mode='aspectFit' src='{{item.productFistImg}}'></image>
+      <view class='shop-text'>
+        <text class='shop-item'>{{item.productName}}</text>
+      </view>
+      <view class='shop-price'>
+        <text>￥{{item.price}}</text>
+      </view>
+    </view>
+  </block>
+
+  <view class='customservice' bindtap='clickCustomservice'>客服</view>
+</view>

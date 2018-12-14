@@ -1,0 +1,33 @@
+/**app.wxss**/
+page{
+  font-size: 28rpx;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+.icon-size{
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.icon-size-small{
+  width: 40rpx;
+  height: 40rpx;
+}
+.main-img{
+  width: 750rpx
+}
+
+.head_img{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}

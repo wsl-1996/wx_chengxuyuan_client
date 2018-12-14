@@ -1,0 +1,117 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"nodeModules": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.3.2",
+	"appid": "wx4d1008a1c302c4e1",
+	"projectname": "wxshop_client",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 11,
+			"list": [
+				{
+					"id": -1,
+					"name": "shopindex",
+					"pathName": "pages/shopindex/shopindex",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "myAccount",
+					"pathName": "pages/myAccount/myAccount",
+					"query": ""
+				},
+				{
+					"id": 2,
+					"name": "productDetail",
+					"pathName": "pages/shopindex/productDetail/productDetail",
+					"query": "productid=1716e7f5fb8041cf9a750a8964dd1d3a"
+				},
+				{
+					"id": -1,
+					"name": "commitOrder",
+					"pathName": "pages/shopindex/commitOrder/commitOrder",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "myOrder",
+					"pathName": "pages/myAccount/myOrder/myOrder",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "myAddress",
+					"pathName": "pages/myAccount/myAddress/myAddress",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "productSort",
+					"pathName": "pages/productSort/productSort",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "message",
+					"pathName": "pages/message/message",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "login",
+					"pathName": "pages/login/login",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "myCart",
+					"pathName": "pages/myAccount/myCart/myCart",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "promotion",
+					"pathName": "pages/promotion/promotion",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "tocomment",
+					"pathName": "pages/myAccount/myOrder/tocomment/tocomment",
+					"query": "productid=1716e7f5fb8041cf9a750a8964dd1d3a"
+				}
+			]
+		}
+	}
+}

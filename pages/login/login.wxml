@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <image src='/images/icon/logo.svg' class='logo-icon'></image>
+    <button class='login-btn' open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 微信登陆 </button>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>

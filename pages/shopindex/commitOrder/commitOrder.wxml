@@ -1,0 +1,59 @@
+<view class='title-content' wx:for="{{defaultaddress}}" wx:key='' bindtap='toaddress'>
+  <image class='icon-size location-icon' src='/images/icon/location.png'></image>
+  <text class='title-content-name'>{{item.sendName}}</text>
+  <text class='title-content-tele'>{{item.sendPhone}}</text>
+  <text class='title-content-address'>{{item.province}}{{item.city}}{{item.districts}}{{item.addressDetail}}</text>
+  <image class='icon-size arrow-icon' src='/images/icon/arrow.png'></image>
+</view>
+
+
+<view class='body-content' wx:for='{{orderlist}}' wx:key=''>
+  <view class='body-content-goods'>
+    <image src="{{item.firstimg}}"></image>
+    <text class='body-content-detail'>{{item.productinfo}}</text>
+    <text class='body-content-style'>{{item.style}}</text>
+    <text class='body-content-price'>￥{{item.price}}/件</text>
+    <view class='plus-minus-container'>
+      <view class='plus' bindtap='onminus' data-productid='{{item.productid}}'>
+        <image class='icon-small-size' src='/images/icon/minus.png'></image>
+      </view>
+      <view class='number-item'>{{item.num}}</view>
+      <view class='plus' bindtap='onplus' data-productid='{{item.productid}}'>
+        <image class='icon-small-size' src='/images/icon/plus.png'></image>
+      </view>
+    </view>
+  </view>
+  <view class='remarks'>
+    <text class='remarks-text'>买家备注：</text>
+    <input class='remarks-content' placeholder='选填：请先和卖家协商' maxlength='50' bindblur='remarkvalue'></input>
+  </view>
+</view>
+
+
+<view class='express-content'>
+  <text class='express-text'>配送方式</text>
+  <text class='express-price'>快递：￥{{exprescost}}</text>
+</view>
+
+<view class='deduction-content'>
+  <view class='deduction-sub-content'>
+    <image src='/images/icon/deduction.svg' class='icon-size'></image>
+    <text class='deduction-content-text'>可抵扣金额：</text>
+    <text class='deduction-content-price'>{{deduction}}</text>
+  </view>
+  <radio bindtap='chkRadio' checked='{{flag}}' class='deduction-content-radio'>使用抵扣</radio>
+</view>
+
+<view class='payment'>
+  <image class='icon-size' src='/images/icon/payment.png'></image>
+  <text class='payment-text'>微信支付</text>
+  <image class='success-icon icon-size' src='/images/icon/success.png'></image>
+</view>
+
+<view class='footer-content'>
+  <text class='footer-content-text'>付款</text>
+  <text class='footer-content-payment'>{{pricenow}}</text>
+  <view class='footer-content-commit' bindtap='commitorder'>
+    <text>提交订单</text>
+  </view>
+</view>

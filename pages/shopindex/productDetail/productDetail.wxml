@@ -1,0 +1,87 @@
+<swiper class='goods-swp' autoplay='true'>
+  <swiper-item wx:for="{{productSlideImg}}" wx:for-item="swiperitem" wx:key=''>
+    <image class="goodsbanner" src='{{swiperitem}}' bindtap='previewimg' data-currentimg='{{swiperitem}}' data-list="{{groupSlideImg}}" mode="widthFix"></image>
+  </swiper-item>
+</swiper>
+<view>
+  <view class='label-one'>自营</view>
+  <view class='label-two'>精品</view>
+  <view class='label-three'>包邮</view>
+  <view class='product-info'>{{productdetail.productName}}</view>
+</view>
+<view class='price-now'>
+  <text>￥{{productdetail.price}}</text>
+</view>
+
+<view class='style-container'>
+  <text class="style-item {{styleActive==item?'active':''}}" wx:for='{{productStyle}}' wx:key='' data-style='{{item}}' bindtap='choseStyle'>{{item}}</text>
+</view>
+
+<view class='share-view'>
+  <image class='icon-size' src='/images/icon/share.png'></image>
+  <view>分享</view>
+</view>
+<scroll-view class='comment-container' scroll-x='true'>
+  <view class='comment-title'>买过的人说</view>
+  <view class='comment-view'>
+    <image class='head_img' src='/images/avatar/1.png'></image>
+    <text class='comment-username'>是****上</text>
+    <text class='comment-date'>2018-11-1</text>
+    <view class='comment-content'>乐博士积木真好玩，我还想再买10个！！！</view>
+  </view>
+  <view class=' comment-view'>
+    <image class='head_img' src='/images/avatar/2.png'></image>
+    <text class='comment-username'>是****上</text>
+    <text class='comment-date'>2018-11-1</text>
+    <view class='comment-content'>乐博士积木真好玩，我还想再买10个！！！</view>
+  </view>
+  <view class=' comment-view'>
+    <image class='head_img' src='/images/avatar/3.png'></image>
+    <text class='comment-username'>是****上</text>
+    <text class='comment-date'>2018-11-1</text>
+    <view class='comment-content'>乐博士积木真好玩，我还想再买10个！！！</view>
+  </view>
+</scroll-view>
+
+<view class='packstand-container'>
+  <view class='packstand-text'>包装说明</view>
+  <view>{{packStand}}</view>
+</view>
+
+<view class='productInfo-container'>
+  <view class='productInfo-key'>
+    <view class='productInfo-text' wx:for='{{productInfokeys}}' wx:key=''>{{item}}</view>
+  </view>
+  <view class='productInfo-value'>
+    <view class='productInfo-text' wx:for='{{productInfo}}' wx:key=''>{{item}}</view>
+  </view>
+</view>
+
+
+
+
+<view wx:for="{{productContentImg}}" wx:key=''>
+  <image class='main-img no-margin' mode='widthFix' src='{{item}}'></image>
+</view>
+
+<view class='afterSale-container'>
+  <view wx:for='{{afterSale}}' wx:key=''>{{item}}</view>
+</view>
+<view class='footer'>
+  <view class='font-item1' bindtap='gotoindex'>
+    <image class='icon-size' src='/images/tarbaricon/index.png'></image>
+    <text>platform</text>
+  </view>
+  <view class='font-item1' bindtap='gotocustomservice'>
+    <image class='icon-size' src='/images/icon/talk.svg'></image>
+    <text>客服</text>
+  </view>
+  <view class='font-item2' bindtap='addtocart'>
+    <view>加入购物车</view>
+  </view>
+  <view class='font-item3' bindtap='gotobuy'>
+    <view>购买</view>
+    <view>￥467</view>
+  </view>
+</view>
+<view class='customservice' bindtap='clickCustomservice'>客服</view>

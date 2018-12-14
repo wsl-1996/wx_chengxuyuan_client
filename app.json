@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/shopindex/shopindex",
+    "pages/login/login",
+    "pages/logs/logs",
+    "pages/productSort/productSort",
+    "pages/promotion/promotion",
+    "pages/myAccount/myAccount",
+    "pages/shopindex/productDetail/productDetail",
+    "pages/shopindex/commitOrder/commitOrder",
+    "pages/myAccount/myOrder/myOrder",
+    "pages/myAccount/myAddress/myAddress",
+    "pages/myAccount/myBalance/myBalance",
+    "pages/myAccount/myColltion/myColltion",
+    "pages/myAccount/myHistory/myHistory",
+    "pages/myAccount/reference/reference",
+    "pages/myAccount/myCart/myCart",
+    "pages/myAccount/myFans/myFans",
+    "pages/message/message",
+    "pages/message/customservice/customservice",
+    "pages/promotion/postdetail/postdetail",
+    "pages/myAccount/myOrder/orderdetail/orderdetail",
+    "pages/myAccount/myOrder/express/express",
+    "pages/myAccount/myOrder/tocomment/tocomment"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#cacaca",
+    "selectedColor": "#DF4733",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/shopindex/shopindex",
+        "iconPath": "/images/tarbaricon/index.png",
+        "selectedIconPath": "/images/tarbaricon/index_hover.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/productSort/productSort",
+        "iconPath": "/images/tarbaricon/sort.png",
+        "selectedIconPath": "/images/tarbaricon/sort_hover.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/promotion/promotion",
+        "iconPath": "/images/tarbaricon/promotion.png",
+        "selectedIconPath": "/images/tarbaricon/promotion_hover.png",
+        "text": "活动"
+      },
+      {
+        "pagePath": "pages/myAccount/myAccount",
+        "iconPath": "/images/tarbaricon/my.png",
+        "selectedIconPath": "/images/tarbaricon/my_hover.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
